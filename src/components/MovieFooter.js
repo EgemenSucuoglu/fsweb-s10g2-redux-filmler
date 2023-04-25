@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { connect } from "react-redux";
 
 const MovieFooter = (props) => {
   const { totalMovies } = props;
@@ -8,6 +9,6 @@ const MovieFooter = (props) => {
       <b>{totalMovies}</b> film gösteriliyor
     </div>
   );
-}
+};
 
 export default MovieFooter;
